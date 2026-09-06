@@ -5,6 +5,12 @@ voltada a projetos sociais, doações e voluntariado.
 
 ![Projeto Novo Futuro](imagens/ong_apresentacao.png)
 
+## 🌐 Projeto online
+
+O projeto está disponível para acesso através do GitHub Pages.
+
+👉 [Acesse o Projeto Novo Futuro](https://marcalcunha.github.io/projeto-ong-novo-mundo/)
+
 ## 📌 Sobre o projeto
 
 O **Novo Futuro** é uma proposta de plataforma digital criada para
@@ -51,11 +57,6 @@ projeto-ong-novo-mundo/
 └── README.md
 
  ```
- `## 🌐 Projeto online`
-
-O projeto está disponível para acesso através do GitHub Pages.
-
-👉 [Acesse o projeto online](https://marcalcunha.github.io/projeto-ong-novo-mundo/)
 
 ## 📚 Contexto acadêmico
 
