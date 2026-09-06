@@ -28,6 +28,20 @@ e organização de projetos utilizando Git e GitHub.
 - Incentivar a participação da comunidade;
 - Criar uma interface simples e acessível;
 - Aplicar boas práticas de desenvolvimento Front-End.
+- 
+## 🖥️ Telas do projeto
+
+### 🏠 Página inicial
+
+![Página inicial do Projeto Novo Futuro](imagens/ong_apresentacao.png)
+
+### 🤝 Projetos sociais
+
+![Projetos sociais](imagens/projeto_social.png)
+
+### 🙋 Voluntariado
+
+![Voluntariado](imagens/voluntariado.png)
 
 ## 💻 Tecnologias utilizadas
 
