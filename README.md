@@ -52,7 +52,7 @@ projeto-ong-novo-mundo/
 
 O projeto está disponível para acesso através do GitHub Pages.
 
-👉 Acesse a versão online do projeto e conheça a plataforma Novo Futuro.
+👉 [Acesse o projeto online](https://marcalcunha.github.io/projeto-ong-novo-mundo/)
 
 ## 📚 Contexto acadêmico
 
@@ -85,4 +85,4 @@ Projeto desenvolvido para fins acadêmicos e de portfólio.
 
 ---
 
-👉 [Acesse o projeto online](https://marcalcunha.github.io/projeto-ong-novo-mundo/)
+
