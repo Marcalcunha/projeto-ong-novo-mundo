@@ -3,6 +3,8 @@
 Projeto acadêmico de desenvolvimento Front-End para uma plataforma
 voltada a projetos sociais, doações e voluntariado.
 
+![Projeto Novo Futuro](imagens/ong_apresentacao.png)
+
 ## 📌 Sobre o projeto
 
 O **Novo Futuro** é uma proposta de plataforma digital criada para
