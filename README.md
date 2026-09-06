@@ -93,14 +93,21 @@ Durante o desenvolvimento do projeto, foram praticados:
 
 🟢 Projeto acadêmico concluído e publicado para demonstração.
 
-## 👨‍💻 Autor
+## 👤 Autor
 
 **Marçal Costa Cunha**
 
-Estudante de Engenharia de Software
+Estudante de Engenharia de Software, com experiência profissional em tecnologia, suporte técnico e soluções CAD/CAM.
 
-Projeto desenvolvido para fins acadêmicos e de portfólio.
+Este projeto foi desenvolvido como parte da minha formação acadêmica e também como projeto de portfólio, demonstrando conhecimentos em desenvolvimento Front-End, organização de projetos, Git e GitHub.
 
 ---
 
+🌐 **Projeto online**
+
+👉 [Acesse o Projeto Novo Futuro](https://marcalcunha.github.io/projeto-ong-novo-mundo/)
+
+---
+
+📌 **Projeto acadêmico desenvolvido para fins de estudo e portfólio profissional.**
 
