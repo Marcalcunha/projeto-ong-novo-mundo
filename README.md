@@ -49,17 +49,7 @@ projeto-ong-novo-mundo/
 └── README.md
 
 
- `## 🌐 Projeto online` 
-
-Depois clique em **Commit changes...**.
-
-Quando voltar para o README em modo **Preview**, o texto deverá aparecer assim:
-
-**👉 Acesse o projeto online**
-
-e aí será **clicável**.
-
-Se quiser, pode me mandar **um print depois de colocar as três crases** que eu confiro para você antes de fazer o commit.
+ `## 🌐 Projeto online`
 
 O projeto está disponível para acesso através do GitHub Pages.
 
