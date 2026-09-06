@@ -47,3 +47,42 @@ projeto-ong-novo-mundo/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+
+## 🌐 Projeto online
+
+O projeto está disponível para acesso através do GitHub Pages.
+
+👉 Acesse a versão online do projeto e conheça a plataforma Novo Futuro.
+
+## 📚 Contexto acadêmico
+
+Este projeto foi desenvolvido como parte das atividades acadêmicas do curso de Engenharia de Software, com o objetivo de aplicar na prática conceitos de desenvolvimento Front-End, organização de projetos e utilização do Git e GitHub.
+
+## 🎓 Aprendizados
+
+Durante o desenvolvimento do projeto, foram praticados:
+
+- Estruturação de páginas utilizando HTML5;
+- Organização e estilização de interfaces;
+- Utilização de JavaScript;
+- Organização de arquivos e diretórios;
+- Versionamento de código com Git;
+- Utilização do GitHub;
+- Publicação de um projeto utilizando GitHub Pages;
+- Desenvolvimento de uma solução com foco social e acessibilidade.
+
+## 🚀 Status do projeto
+
+🟢 Projeto acadêmico concluído e publicado para demonstração.
+
+## 👨‍💻 Autor
+
+**Marçal Costa Cunha**
+
+Estudante de Engenharia de Software
+
+Projeto desenvolvido para fins acadêmicos e de portfólio.
+
+---
+
+👉 [Acesse o projeto online](https://marcalcunha.github.io/projeto-ong-novo-mundo/)
