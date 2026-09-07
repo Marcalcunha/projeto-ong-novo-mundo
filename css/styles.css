@@ -197,3 +197,67 @@ select:focus {
     outline: 3px solid #e3ad4d;
     outline-offset: 3px;
 }
+
+   /* ================================
+   SEÇÃO SOBRE A ONG
+   ================================ */
+
+.sobre-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 25px;
+}
+
+.sobre-conteudo img {
+    width: 55%;
+    max-width: 650px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.sobre-texto {
+    flex: 1;
+}
+
+.sobre-texto p {
+    margin-bottom: 18px;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+
+/* ================================
+   SEÇÕES DE CONTEÚDO
+   ================================ */
+
+main section {
+    margin-bottom: 45px;
+}
+
+main h2 {
+    color: #24543d;
+    margin-bottom: 20px;
+}
+
+
+/* ================================
+   RESPONSIVIDADE
+   ================================ */
+
+@media (max-width: 768px) {
+
+    .sobre-conteudo {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .sobre-conteudo img {
+        width: 100%;
+    }
+
+    .sobre-texto {
+        width: 100%;
+    }
+}
