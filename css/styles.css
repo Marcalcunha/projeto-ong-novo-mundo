@@ -25,24 +25,36 @@ body {
 ================================ */
 
 header {
+header {
     background-color: #ffffff;
-    padding: 20px 6%;
+    padding: 15px 6%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 25px;
     border-bottom: 2px solid #dce9e1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header img {
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.05);
 }
 
 header h1 {
     color: #24543d;
     font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
 }
 
 /* ================================
@@ -59,12 +71,15 @@ nav a {
     color: #24543d;
     text-decoration: none;
     font-weight: bold;
-    padding: 8px 12px;
-    border-radius: 6px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #e2efe7;
+    background-color: #24543d;
+    color: #ffffff;
+    transform: translateY(-2px);
 }
 
 nav a:focus {
