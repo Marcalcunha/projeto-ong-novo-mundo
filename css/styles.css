@@ -258,3 +258,184 @@ footer p {
         font-size: 1.4rem;
     }
 }
+
+/* ========================================
+   PÁGINA DE CADASTRO
+   ======================================== */
+
+#formCadastro {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Textos do formulário */
+
+#formCadastro p {
+    margin-bottom: 18px;
+}
+
+#formCadastro label {
+    display: inline-block;
+    color: #24543d;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+/* Campos */
+
+#formCadastro input[type="text"],
+#formCadastro input[type="email"],
+#formCadastro input[type="tel"],
+#formCadastro input[type="date"],
+#formCadastro input[type="number"],
+#formCadastro select {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 1px solid #cbdad2;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito ao clicar no campo */
+
+#formCadastro input:focus,
+#formCadastro select:focus {
+    outline: none;
+    border-color: #4f9b70;
+    box-shadow: 0 0 0 3px rgba(79, 155, 112, 0.15);
+}
+
+/* Texto de exemplo */
+
+#formCadastro input::placeholder {
+    color: #999999;
+}
+
+/* ========================================
+   GRUPOS DO FORMULÁRIO
+   ======================================== */
+
+#formCadastro fieldset {
+    border: 1px solid #dce9e1;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: #f9fbfa;
+}
+
+#formCadastro legend {
+    color: #24543d;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+/* ========================================
+   RADIO BUTTONS E CHECKBOX
+   ======================================== */
+
+#formCadastro input[type="radio"],
+#formCadastro input[type="checkbox"] {
+    width: auto;
+    min-height: auto;
+    margin-right: 8px;
+    accent-color: #24543d;
+}
+
+#formCadastro input[type="radio"] + label,
+#formCadastro input[type="checkbox"] + label {
+    color: #333333;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+/* ========================================
+   BOTÕES
+   ======================================== */
+
+#formCadastro button {
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Botão enviar */
+
+#formCadastro button[type="submit"] {
+    background-color: #24543d;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+#formCadastro button[type="submit"]:hover {
+    background-color: #1b402f;
+    transform: translateY(-1px);
+}
+
+/* Botão limpar */
+
+#formCadastro button[type="reset"] {
+    background-color: #e7eee9;
+    color: #24543d;
+}
+
+#formCadastro button[type="reset"]:hover {
+    background-color: #d5e3da;
+}
+
+/* ========================================
+   TÍTULO DA PÁGINA DE CADASTRO
+   ======================================== */
+
+main section:has(#formCadastro) > h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+main section:has(#formCadastro) > p {
+    text-align: center;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+
+/* ========================================
+   RESPONSIVIDADE DO CADASTRO
+   ======================================== */
+
+@media (max-width: 768px) {
+
+    #formCadastro {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #formCadastro fieldset {
+        padding: 18px;
+    }
+
+    #formCadastro button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #formCadastro button[type="submit"] {
+        margin-right: 0;
+    }
+
+}
