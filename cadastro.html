@@ -353,44 +353,50 @@
 
     <!-- JAVASCRIPT DO FORMULÁRIO -->
     <script>
+const form = document.getElementById("formCadastro");
 
-        const form = document.getElementById("formCadastro");
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
 
-        form.addEventListener("submit", function (event) {
+    const dados = {
+        nome: document.getElementById("nome").value,
+        email: document.getElementById("email").value,
+        cpf: document.getElementById("cpf").value,
+        nascimento: document.getElementById("nascimento").value,
+        telefone: document.getElementById("telefone").value,
+        cep: document.getElementById("cep").value,
+        endereco: document.getElementById("endereco").value,
+        numero: document.getElementById("numero").value,
+        complemento: document.getElementById("complemento").value,
+        cidade: document.getElementById("cidade").value,
+        estado: document.getElementById("estado").value,
+        participacao: document.querySelector(
+            'input[name="participacao"]:checked'
+        ).value
+    };
 
-            event.preventDefault();
+    localStorage.setItem("cadastro", JSON.stringify(dados));
 
-            const dados = {
+    const mensagem = document.createElement("div");
 
-                nome: document.getElementById("nome").value,
-                email: document.getElementById("email").value,
-                cpf: document.getElementById("cpf").value,
-                nascimento: document.getElementById("nascimento").value,
-                telefone: document.getElementById("telefone").value,
-                cep: document.getElementById("cep").value,
-                endereco: document.getElementById("endereco").value,
-                numero: document.getElementById("numero").value,
-                complemento: document.getElementById("complemento").value,
-                cidade: document.getElementById("cidade").value,
-                estado: document.getElementById("estado").value,
+    mensagem.className = "mensagem-sucesso";
+    mensagem.setAttribute("role", "alert");
 
-                participacao:
-                    document.querySelector(
-                        'input[name="participacao"]:checked'
-                    ).value
+    mensagem.innerHTML = `
+        <strong>✓ Cadastro realizado com sucesso!</strong>
+        <p>Obrigado por fazer parte da Novo Futuro.</p>
+    `;
 
-            };
+    form.prepend(mensagem);
 
-            localStorage.setItem(
-                "cadastro",
-                JSON.stringify(dados)
-            );
+    form.reset();
 
-            alert("Cadastro enviado e salvo com sucesso!");
-
-        });
-
-    </script>
+    mensagem.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+});
+</script>
 
 </body>
 
